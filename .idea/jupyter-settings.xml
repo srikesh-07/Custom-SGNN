@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JupyterPersistentConnectionParameters">
+    <option name="moduleParameters">
+      <map>
+        <entry key="/media/srikesh/New Volume5/Temp/gnns_on_eeg/.idea/gnns_on_eeg.iml">
+          <value>
+            <JupyterConnectionParameters>
+              <option name="managed" value="true" />
+              <option name="sdkHomePath" value="$USER_HOME$/anaconda3/envs/graph_gym/bin/python" />
+            </JupyterConnectionParameters>
+          </value>
+        </entry>
+        <entry key="/media/srikesh/New Volume6/Temp/gnns_on_eeg/.idea/gnns_on_eeg.iml">
+          <value>
+            <JupyterConnectionParameters>
+              <option name="managed" value="true" />
+              <option name="sdkHomePath" value="$USER_HOME$/anaconda3/envs/graph_gym/bin/python" />
+            </JupyterConnectionParameters>
+          </value>
+        </entry>
+        <entry key="/media/srikesh/New Volume9/Temp/gnns_on_eeg/.idea/gnns_on_eeg.iml">
+          <value>
+            <JupyterConnectionParameters>
+              <option name="managed" value="true" />
+              <option name="sdkHomePath" value="$USER_HOME$/anaconda3/envs/graph_gym/bin/python" />
+            </JupyterConnectionParameters>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -485,9 +485,9 @@ def main():
         patience = 0
 
         for epoch in range(0, args.epochs):
-            scheduler.step()
-
             _ = train_gin(args, model, device, train_graphs, optimizer, epoch)
+
+            scheduler.step()
 
             loss_valid, acc_valid, _ = test_gin(args, model, device, valid_graphs, epoch)
 
