@@ -534,9 +534,9 @@ def main():
         # test_acc_tail_list = []
 
         for epoch in range(0, args.epochs):
-            scheduler.step()
-
             _ = train(args, model, patmem, device, train_graphs, train_samples, optimizer, opt_p, epoch)
+
+            scheduler.step()
 
             loss_valid, _, _, _, _ = test(args, model, patmem, device,
                                           valid_graphs, epoch)
