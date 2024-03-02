@@ -612,8 +612,8 @@ def main():
 
     with open("metrics.txt", "a") as txt_file:
         txt_file.write(f"Dataset: {args.dataset}, \n"
-                       f"K: {args.K}"
-                       f"Subgraph Sampling Border: {border}"
+                       f"K: {args.K}, \n"
+                       f"Subgraph Sampling Border: {border}, \n"
                        f"Alpha: {args.alpha}, \n"
                        f"Mu1: {args.mu1}, \n"
                        f"Mu2: {args.mu2}, \n"
