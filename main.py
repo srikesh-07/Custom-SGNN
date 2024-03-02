@@ -447,7 +447,7 @@ def main():
         cnt_node = torch.zeros(3)
 
         for i in range(len(test_graphs)):
-            cnt_node[test_graphs[i].nodegroup] += 1
+            cnt_node[test_graphs[i].graphgroup] += 1
 
         print('The number of graphs in test set:', end=' ')
         print("Head: %f" % (cnt_node[0]), end=', ')
